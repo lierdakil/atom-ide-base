@@ -4,11 +4,11 @@ importers:
       atom-ide-markdown-service: 2.0.0
       atom-package-deps: 7.2.2
       classnames: 2.2.6
-      dompurify: 2.2.6
+      dompurify: 2.2.7
       etch: 0.14.1
       react: 17.0.1
       react-dom: 17.0.1_react@17.0.1
-      rxjs: 6.6.3
+      rxjs: 6.6.6
     devDependencies:
       '@babel/cli': 7.13.0_@babel+core@7.13.8
       '@babel/core': 7.13.8
@@ -63,7 +63,7 @@ importers:
       classnames: ^2.2.6
       cross-env: 7.0.3
       csstype: ^3.0.7
-      dompurify: ^2.2.6
+      dompurify: ^2.2.7
       eslint: 7.21.0
       eslint-config-atomic: ^1.12.2
       etch: ^0.14.1
@@ -82,7 +82,7 @@ importers:
       react-dom: ^17.0.1
       rollup: 2.40.0
       rollup-plugin-atomic: ^2.1.0
-      rxjs: ^6.6.3
+      rxjs: ^6.6.6
       shx: 0.3.3
       typescript: ^4.2.3
   dist-nuclide/nuclide-adb:
@@ -6170,6 +6170,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-7b7ZArhhH0SP6W2R9cqK6RjaU82FZ2UPM7RO8qN1b1wyvC/NY1FNWcX1Pu00fFOAnzEORtwXe4bPaClg6pUybQ==
+  /dompurify/2.2.7:
+    dev: false
+    resolution:
+      integrity: sha512-jdtDffdGNY+C76jvodNTu9jt5yYj59vuTUyx+wXdzcSwAGTYZDAQkQ7Iwx9zcGrA4ixC1syU4H3RZROqRxokxg==
   /domutils/1.5.1:
     dependencies:
       dom-serializer: 0.2.2
@@ -11577,14 +11581,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-caGN7ixiabHpOofginKEquuHk7GgaCrC7UpUQ9ZqGp80tMc68msadOeP/2AKy2R4YJsT1+TX5GZCtxO82qWkyA==
-  /rxjs/6.6.3:
+  /rxjs/6.6.6:
     dependencies:
       tslib: 1.14.0
     dev: false
     engines:
       npm: '>=2.0.0'
     resolution:
-      integrity: sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==
+      integrity: sha512-/oTwee4N4iWzAMAL9xdGKjkEHmIwupR3oXbQjCKywF1BeFohswF3vZdogbmEF6pZkOsXTzWkrZszrWpQTByYVg==
   /safe-buffer/5.1.2:
     dev: true
     resolution:
